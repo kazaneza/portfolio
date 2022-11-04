@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kazaneza/portfolio/issues"
   },
-  "homepage": "https://github.com/kazaneza/portfolio#readme"
+  "homepage": "https://github.com/kazaneza/portfolio#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
 }
