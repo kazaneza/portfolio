@@ -27,8 +27,12 @@ nav {
   font-family: 'Roboto', sans-serif;
   color: #fff;
 }
-
-a {
+.logo a {
+    color: #fff;
+    background-color: #3c3a39;
+    font-family: sans-serif;
+}
+a .navImage{
   background-color: #fff;
 }
 
@@ -76,12 +80,14 @@ a {
   color: #fff;
 }
 
-.icons {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
-  flex-grow: 0;
-  align-content: space-between;
-  gap: 20px;
+.icons ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2em;
+    padding: 0 0 0 1em;
+}
+
+.icons ul li {
+    padding: 0 1.2em 0 0;
 }
