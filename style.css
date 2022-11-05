@@ -27,12 +27,14 @@ nav {
   font-family: 'Roboto', sans-serif;
   color: #fff;
 }
+
 .logo a {
-    color: #fff;
-    background-color: #3c3a39;
-    font-family: sans-serif;
+  color: #fff;
+  background-color: #3c3a39;
+  font-family: sans-serif;
 }
-a .navImage{
+
+a .navImage {
   background-color: #fff;
 }
 
@@ -81,13 +83,13 @@ a .navImage{
 }
 
 .icons ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 1.2em;
-    padding: 0 0 0 1em;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2em;
+  padding: 0 0 0 1em;
 }
 
 .icons ul li {
-    padding: 0 1.2em 0 0;
+  padding: 0 1.2em 0 0;
 }
