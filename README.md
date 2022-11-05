@@ -23,7 +23,7 @@ should have a previous knowlege on how linters work. To learn about linters visi
 
 ## Authors
 
-👤 **Ibrahim Kedir**
+👤 **Kazaneza Gentil**
 
 - GitHub: [@githubhandle](https://github.com/kazaneza)
 - Twitter: [@twitterhandle](https://twitter.com/kazaneza)
