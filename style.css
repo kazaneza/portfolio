@@ -118,10 +118,8 @@ a .navImage {
   font-family: "crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 30px;
   padding: 25px;
-  flex-wrap: nowrap;
 }
 
 .multistories h3 {
