@@ -99,14 +99,15 @@ a .navImage {
 
 .work {
   display: grid;
-  padding: 114px 24px;
+
+  /* padding: 114px 24px; */
   gap: 50px;
 }
 
 .multistories {
   display: flex;
   flex-direction: column;
-  padding: 120px 24px;
+  padding: 60px 24px;
   gap: 12px;
 }
 
@@ -120,6 +121,7 @@ a .navImage {
   font-size: 40px;
   line-height: 52px;
   padding: 25px;
+  flex-wrap: nowrap;
 }
 
 .multistories h3 {
@@ -271,7 +273,7 @@ a .navImage {
 }
 
 .aboutList ul {
-  padding: 120px 24px;
+  padding: 60px 24px;
   flex-direction: column;
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
