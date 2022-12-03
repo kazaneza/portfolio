@@ -95,9 +95,9 @@ a .navImage {
 .icons ul li {
   padding: 0 1.2em 0 0;
 }
+
 .work {
   display: grid;
-  /* grid-template: repeat(6, 25%) / auto; */
   padding: 114px 24px;
   gap: 50px;
 }
@@ -105,7 +105,6 @@ a .navImage {
 .multistories {
   display: flex;
   flex-direction: column;
-
   padding: 120px 24px;
   gap: 12px;
 }
@@ -136,7 +135,8 @@ a .navImage {
   line-height: 44px;
   color: #091e42;
 }
-multistories p {
+
+.multistories p {
   flex: none;
   flex-grow: 0;
   color: #091e42;
@@ -148,6 +148,7 @@ multistories p {
   font-size: 16px;
   line-height: 24px;
 }
+
 .languages {
   display: flex;
   justify-content: space-between;
@@ -167,8 +168,9 @@ multistories p {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
 }
+
 .project {
   background: linear-gradient(
       180.45deg,
@@ -178,10 +180,10 @@ multistories p {
     url(./images/imageprocessing.png);
   display: flex;
   flex-direction: column;
-
   padding: 120px 24px;
   gap: 12px;
 }
+
 .project h1 {
   flex: none;
   width: 295px;
@@ -191,44 +193,46 @@ multistories p {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color: #fff;
 }
+
 .project p {
   width: 295px;
   height: 87px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
 }
+
 .projectLanguages {
   display: flex;
   justify-content: space-between;
   max-width: 300px;
 }
+
 .project button {
   justify-content: center;
   background: #ff6b00;
   border-color: #ff6b00;
   width: 303px;
   height: 49px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  line-height: 24px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 25px;
 }
+
 .about {
   display: flex;
-  height: 100vh;
   flex-direction: column;
   height: 100vh;
   align-items: flex-start;
@@ -237,13 +241,14 @@ multistories p {
   background: var(--background) url("../images/background.svg") no-repeat 100%
     100%;
 }
+
 .about button {
   justify-content: center;
   background: #ff6b00;
   border-color: #ff6b00;
   width: 303px;
   height: 49px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -252,18 +257,20 @@ multistories p {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 25px;
 }
+
 .aboutList {
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
 }
+
 .aboutList ul {
   padding: 120px 24px;
   flex-direction: column;
-  font-family: "InaiMathi";
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   gap: 24px;
@@ -271,12 +278,13 @@ multistories p {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   flex-grow: 0;
 }
+
 .aboutList ul li {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -284,10 +292,11 @@ multistories p {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   flex-grow: 0;
 }
+
 .form {
   display: flex;
   flex-direction: column;
@@ -296,6 +305,7 @@ multistories p {
   gap: 58px;
   background-color: white;
 }
+
 .form h1 {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -307,20 +317,23 @@ multistories p {
   flex: none;
   flex-grow: 0;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
+
   /* align-items: center; */
-  padding: 0px;
+  padding: 0;
   margin: 0 auto;
   width: 400px;
   height: 330px;
   border: none;
 }
+
 input {
   border: none;
   border-bottom: 1px solid #dbd8d7;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -328,6 +341,7 @@ input {
   height: 50px;
   padding-left: 10px;
 }
+
 textarea {
   padding: 10px;
   border: none;
@@ -338,6 +352,7 @@ textarea {
   font-size: 15px;
   line-height: 24px;
 }
+
 .contact button {
   align-self: center;
   gap: 10px;
@@ -345,13 +360,13 @@ textarea {
   width: 140px;
   background-color: #ff6b00;
   border: none;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   margin-top: 15px;
 }
