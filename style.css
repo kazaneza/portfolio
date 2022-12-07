@@ -5,18 +5,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap");
 
 * {
-  --background: #1c1a19;
-
   padding: 0;
   margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
 }
 
 body {
   font-family: montserrat, sans-serif;
-  background: #e5e5e5;
 }
 
 nav {
@@ -45,9 +39,11 @@ a .navImage {
   align-items: flex-start;
   padding: 120px 24px;
   gap: 12px;
-  background:
-    var(--background) url("../images/background.svg") no-repeat 100%
-    100%;
+  background-color: #1c1a19;
+  background-image: url("./images/background.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  /* background-color: #1c1a19; */
 }
 
 .headline {
@@ -173,8 +169,7 @@ a .navImage {
 }
 
 .project {
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -240,9 +235,10 @@ a .navImage {
   align-items: flex-start;
   padding: 120px 24px;
   gap: 12px;
-  background:
-    var(--background) url("./images/background.svg") no-repeat 100%
-    100%;
+  background-color: #1c1a19;
+  background-image: url("./images/background.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .about button {
@@ -372,4 +368,58 @@ textarea {
   text-align: center;
   color: #fff;
   margin-top: 15px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contant-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 50px;
+}
+.input-field {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 39px;
+}
+.input-field::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+text-area::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+.contact-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  border: none;
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
