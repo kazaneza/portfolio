@@ -43,6 +43,7 @@ a .navImage {
   background-image: url("./images/background.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
+
   /* background-color: #1c1a19; */
 }
 
@@ -169,7 +170,8 @@ a .navImage {
 }
 
 .project {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -385,26 +387,30 @@ textarea {
   padding: 120px 24px;
   gap: 50px;
 }
+
 .input-field {
   border-top: none;
   border-left: none;
   border-right: none;
   margin-bottom: 39px;
 }
+
 .input-field::placeholder {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
 }
-text-area::placeholder {
-  font-family: "Inter";
+
+.text-area::placeholder {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
 }
+
 .contact-button {
   display: flex;
   flex-direction: row;
@@ -416,7 +422,7 @@ text-area::placeholder {
   background: #ff6b00;
   border: none;
   color: #fff;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
