@@ -26,6 +26,7 @@ nav {
   color: #fff;
   background-color: #3c3a39;
   font-family: sans-serif;
+  list-style: none;
 }
 
 a .navImage {
@@ -136,6 +137,7 @@ a .navImage {
 
 .multistories p {
   color: #091e42;
+
   /* width: 327px;
   height: 147px; */
   font-family: "inter", sans-serif;
@@ -168,7 +170,8 @@ a .navImage {
 }
 
 .project {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -207,6 +210,7 @@ a .navImage {
   display: flex;
   justify-content: space-between;
   max-width: 300px;
+  list-style: none;
 }
 
 .project button {
@@ -235,7 +239,7 @@ a .navImage {
   padding: 120px 24px;
   gap: 12px;
   background-color: #1c1a19;
-  background-image: url("./images/background.svg");
+  background-image: url("../images/background.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -408,6 +412,14 @@ textarea {
   line-height: 24px;
 }
 
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 58px;
+}
+
 .contact-button {
   display: flex;
   flex-direction: row;
@@ -425,4 +437,21 @@ textarea {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+
+.footer-icons {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+
+.footer-icons ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
 }
