@@ -37,6 +37,10 @@ a .navImage {
   display: none;
 }
 
+.desktop-nav ul li img {
+  width: 24;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -176,7 +180,7 @@ a .navImage {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(./images/imageprocessing.png);
+    url(../images/imageprocessing.png);
   display: flex;
   flex-direction: column;
   padding: 120px 24px;
@@ -394,6 +398,7 @@ textarea {
   border-left: none;
   border-right: none;
   margin-bottom: 39px;
+  width: 100%;
 }
 
 .input-field::placeholder {
@@ -402,6 +407,10 @@ textarea {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
+}
+
+.text-area {
+  width: 100%;
 }
 
 .text-area::placeholder {
@@ -421,13 +430,8 @@ textarea {
 }
 
 .contact-button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 12px;
-  gap: 10px;
   width: 131px;
-  height: 48px;
   background: #ff6b00;
   border: none;
   color: #fff;
@@ -437,6 +441,7 @@ textarea {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  margin: 12px auto 0 0;
 }
 
 .footer-icons {

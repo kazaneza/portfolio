@@ -6,14 +6,21 @@ nav {
   display: flex;
 }
 
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .desktop-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  gap: 8px;
+  gap: 20px;
   color: #fff;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .desktop-nav li {
@@ -42,6 +49,7 @@ nav {
   display: flex;
   flex-direction: column;
   margin-top: 1.2em;
+  gap: 20px;
   padding: 0 0 0 1em;
 }
 
@@ -233,8 +241,8 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 130px 20px;
-  justify-content: space-between;
+  padding: 100px 10vw;
+  border-bottom: solid 1px #dfe1e6;
 }
 
 .contact-text {
@@ -255,14 +263,18 @@ nav {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  max-width: 45%;
+  flex: 1;
+}
+
+.contact-form {
+  width: 100%;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0;
+  padding: 0 0 1rem 0;
   justify-content: flex-end;
 }
 
@@ -272,7 +284,8 @@ nav {
   justify-content: space-between;
   list-style: none;
   margin-top: 1.2em;
-  padding: 0 0 0 1em;
+  padding: 0;
+  gap: 12px;
 }
 
 .footer-icons ul li {
