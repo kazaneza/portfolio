@@ -32,6 +32,10 @@ a .navImage {
   background-color: #fff;
 }
 
+.desktop-nav {
+  display: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -40,11 +44,9 @@ a .navImage {
   padding: 120px 24px;
   gap: 12px;
   background-color: #1c1a19;
-  background-image: url("./images/background.svg");
+  background-image: url("../images/background.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
-
-  /* background-color: #1c1a19; */
 }
 
 .headline {
@@ -96,8 +98,6 @@ a .navImage {
 
 .work {
   display: grid;
-
-  /* padding: 114px 24px; */
   gap: 50px;
 }
 
@@ -135,11 +135,9 @@ a .navImage {
 }
 
 .multistories p {
-  flex: none;
-  flex-grow: 0;
   color: #091e42;
-  width: 327px;
-  height: 147px;
+  /* width: 327px;
+  height: 147px; */
   font-family: "inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -170,8 +168,7 @@ a .navImage {
 }
 
 .project {
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
