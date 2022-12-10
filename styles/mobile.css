@@ -174,8 +174,7 @@ a .navImage {
 }
 
 .project {
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -442,6 +441,9 @@ textarea {
   line-height: 24px;
   letter-spacing: 0.03em;
   margin: 12px auto 0 0;
+}
+.contact-button:hover {
+  background-color: bisque;
 }
 
 .footer-icons {
