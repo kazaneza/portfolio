@@ -50,6 +50,11 @@
     <li><a href="https://reactjs.org/">HTML/CSS</a></li>
   </ul>
 </details>
+<!-- live demo -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](https://kazaneza.github.io/portfolio/)
 
 <!-- GETTING STARTED -->
 
