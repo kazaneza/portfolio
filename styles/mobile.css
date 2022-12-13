@@ -100,9 +100,6 @@ a .navImage {
 .icons ul li {
   padding: 0 1.2em 0 0;
 }
-.icons ul li:hover {
-  transform: rotate(360deg);
-}
 
 .work {
   display: grid;
@@ -177,7 +174,8 @@ a .navImage {
 }
 
 .project {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
