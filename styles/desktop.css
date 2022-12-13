@@ -57,6 +57,13 @@ nav a {
   justify-content: space-between;
   padding: 0 1.2em 0 0;
 }
+.icons li a {
+  display: flex;
+  transition: 1s ease;
+}
+.icons ul li a:hover {
+  transform: rotate(360deg);
+}
 
 .headline {
   font-family: "Crete Round", sans-serif;
