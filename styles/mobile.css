@@ -14,6 +14,10 @@ body {
   font-family: montserrat, sans-serif;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 /* Header menu keyframes */
 
 @keyframes menu-open {
@@ -123,7 +127,7 @@ a .navImage {
   padding: 0.875rem 0 0;
   list-style: none;
   text-align: left;
-  height: 70vh;
+  height: 100vh;
 }
 
 .header__menu-link {
