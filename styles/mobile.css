@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 
 * {
   box-sizing: border-box;
@@ -67,7 +67,7 @@ nav {
   justify-content: space-between;
   padding: 24px;
   background: #3c3a39;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
 }
 
@@ -156,13 +156,13 @@ a .navImage {
   padding: 120px 24px;
   gap: 12px;
   background-color: #1c1a19;
-  background-image: url("../images/background.svg");
+  background-image: url('../images/background.svg');
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 
 .headline {
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -175,7 +175,7 @@ a .navImage {
 }
 
 .title {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -187,7 +187,7 @@ a .navImage {
 }
 
 .introduction {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -224,7 +224,7 @@ a .navImage {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "crete Round", sans-serif;
+  font-family: 'crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -238,7 +238,7 @@ a .navImage {
   height: 36px;
   flex: none;
   flex-grow: 0;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -251,7 +251,7 @@ a .navImage {
 
   /* width: 327px;
   height: 147px; */
-  font-family: "inter", sans-serif;
+  font-family: 'inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -271,7 +271,7 @@ a .navImage {
   gap: 10px;
   background: #ff6b00;
   border-color: #ff6b00;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -281,12 +281,7 @@ a .navImage {
 }
 
 .project {
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
     url(../images/imageprocessing.png);
   display: flex;
   flex-direction: column;
@@ -298,7 +293,7 @@ a .navImage {
   flex: none;
   width: 295px;
   height: 81px;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -309,7 +304,7 @@ a .navImage {
 .project p {
   width: 295px;
   height: 87px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -330,7 +325,7 @@ a .navImage {
   border-color: #ff6b00;
   width: 303px;
   height: 49px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -342,6 +337,25 @@ a .navImage {
   margin-bottom: 25px;
 }
 
+.project__details {
+  visibility: visible;
+  position: absolute;
+  padding: 1rem;
+  top: 1.25rem;
+  right: 1rem;
+  left: 1rem;
+  text-align: left;
+  background-color: rgba(225, 225, 225, 0.916);
+  border: 2px solid rgba(255, 0, 0, 0.904);
+  border-radius: 0.5rem;
+  z-index: 1010;
+}
+
+.project__details-cancel {
+  display: flex;
+  justify-content: space-between;
+}
+
 .about {
   display: flex;
   flex-direction: column;
@@ -350,7 +364,7 @@ a .navImage {
   padding: 120px 24px;
   gap: 12px;
   background-color: #1c1a19;
-  background-image: url("../images/background.svg");
+  background-image: url('../images/background.svg');
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -361,7 +375,7 @@ a .navImage {
   border-color: #ff6b00;
   width: 303px;
   height: 49px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -383,7 +397,7 @@ a .navImage {
 .aboutList ul {
   padding: 60px 24px;
   flex-direction: column;
-  font-family: "InaiMathi", sans-serif;
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   gap: 24px;
@@ -397,7 +411,7 @@ a .navImage {
 }
 
 .aboutList ul li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -420,7 +434,7 @@ a .navImage {
 }
 
 .form h1 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -446,7 +460,7 @@ a .navImage {
 input {
   border: none;
   border-bottom: 1px solid #dbd8d7;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -459,7 +473,7 @@ textarea {
   padding: 10px;
   border: none;
   background: #fbf8f7;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -473,7 +487,7 @@ textarea {
   width: 140px;
   background-color: #ff6b00;
   border: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -509,7 +523,7 @@ textarea {
 }
 
 .input-field::placeholder {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -521,7 +535,7 @@ textarea {
 }
 
 .text-area::placeholder {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -542,7 +556,7 @@ textarea {
   background: #ff6b00;
   border: none;
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;

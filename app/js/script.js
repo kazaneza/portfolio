@@ -29,3 +29,14 @@ menuOptions.forEach((option) => {
     closeMenu();
   });
 });
+
+// Project details popup window
+
+const projectButtons = document.querySelectorAll('.project-button');
+const popupCancelBtn = document.querySelector('.project__details-cancel-icon');
+const popup = document.querySelector('.project__details');
+const popupfeatureImg = document.querySelector('.project__details-featured-image');
+const popupTitle = document.querySelector('.project__feature-title');
+const popupDescrption = document.querySelector('.project__details-description');
+const popupTechList = document.querySelector('.project__details-languages');
+const desktopView = window.matchMedia('(min-width: 64em');
