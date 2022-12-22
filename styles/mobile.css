@@ -5,12 +5,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap");
 
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 body {
   font-family: montserrat, sans-serif;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+/* Header menu keyframes */
+
+@keyframes menu-open {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  1% {
+    visibility: visible;
+    opacity: 0;
+  }
+
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes menu-close {
+  from {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  99% {
+    visibility: visible;
+    opacity: 0;
+  }
+
+  to {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 nav {
@@ -20,6 +69,16 @@ nav {
   background: #3c3a39;
   font-family: "Roboto", sans-serif;
   color: #fff;
+}
+
+/* When the menu button is clicked */
+.nav .open {
+  animation: menu-open 250ms ease-in-out 0ms 1 forwards;
+}
+
+/* When the cancel-menu button is clicked */
+.nav .close {
+  animation: menu-close 250ms ease-in-out 0ms 1 forwards;
 }
 
 .logo a {
@@ -38,7 +97,55 @@ a .navImage {
 }
 
 .desktop-nav ul li img {
-  width: 24;
+  width: 24px;
+}
+
+.header__menu {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1005;
+  text-align: end;
+  background-color: #3c3a39;
+  padding: 13px;
+}
+
+.header__menu-btn {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 150ms ease-in-out;
+}
+
+.header__menu-btn:hover {
+  background-color: var(--lightGreen);
+}
+
+.header__menu-content {
+  padding: 0.875rem 0 0;
+  list-style: none;
+  text-align: left;
+  height: 100vh;
+}
+
+.header__menu-link {
+  display: inline-block;
+  position: relative;
+  font-size: 2rem;
+  color: #fff5e1;
+  width: 100%;
+  padding: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 150ms ease-in-out, background-color 150ms ease-in-out;
+  border-bottom: solid 2px #6f6c6b;
+}
+
+.header__menu-link:hover {
+  color: var(--white);
+  background-color: var(--lime);
 }
 
 .container {

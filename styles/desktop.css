@@ -290,5 +290,5 @@ nav a {
 
 .footer-icons ul li {
   display: flex;
-  justify-content: space-betweens;
+  justify-content: space-between;
 }

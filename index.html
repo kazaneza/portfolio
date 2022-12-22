@@ -17,8 +17,8 @@
     />
     <title>Portfolio Kazaneza</title>
   </head>
-  <body>
-    <header>
+  <body class="body">
+    <header class="header">
       <nav class="nav">
         <label class="logo"><a href="">KAZANEZA GENTIL</a></label>
         <ul class="desktop-nav">
@@ -36,6 +36,19 @@
             alt="Navigation menu"
           />
         </a>
+        <div class="header__menu">
+          <button class="header__menu-btn">
+            <img src="images/Icon-Cancel.png" alt="Menu cancel button" />
+          </button>
+
+          <ul class="header__menu-content">
+            <li>
+              <a class="header__menu-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li><a class="header__menu-link" href="#about">About</a></li>
+            <li><a class="header__menu-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
 
@@ -73,7 +86,7 @@
       </div>
     </section>
 
-    <section class="work">
+    <section id="portfolio" class="work">
       <div class="multistories">
         <div class="recent-work">
           <h1>My Recent Works</h1>
@@ -241,7 +254,7 @@
       </div>
     </section>
 
-    <section class="about-me">
+    <section id="about" class="about-me">
       <div class="about">
         <div class="about-me-details">
           <h1 class="headline">About me</h1>
@@ -286,7 +299,7 @@
         </ul>
       </div>
     </section>
-    <section>
+    <section id="contact">
       <div class="contact-us">
         <div class="contact-text">
           <h1>
@@ -347,5 +360,7 @@
         </ul>
       </div>
     </footer>
+
+    <script src="app/js/script.js"></script>
   </body>
 </html>
