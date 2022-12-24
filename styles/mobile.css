@@ -481,6 +481,8 @@ footer {
   padding: 1em;
   display: flex;
   flex-direction: column;
+  left: calc(50% - 480px/2);
+  top: 4px;
 }
 
 .top-nav {
