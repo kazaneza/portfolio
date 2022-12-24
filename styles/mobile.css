@@ -36,10 +36,10 @@ body {
   margin: 0;
 }
 
+/* stylelint-disabled */
 .wrapper {
   box-sizing: border-box;
-  background: var(--background) url('../images/background.svg') no-repeat 100%
-    100%;
+  background: var(--background) url('../images/background.svg') no-repeat 100% 100%;
   color: var(--white);
   min-width: 286px;
   height: 100vh;
@@ -52,10 +52,10 @@ body {
 }
 
 /* hum-menu */
-.active svg > path {
-  d: path(
-    'M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976311 13.3166 -0.0976311 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L8.41421 7L13.7071 12.2929C14.0976 12.6834 14.0976 13.3166 13.7071 13.7071C13.3166 14.0976 12.6834 14.0976 12.2929 13.7071L7 8.41421L1.70711 13.7071C1.31658 14.0976 0.683417 14.0976 0.292893 13.7071C-0.0976311 13.3166 -0.0976311 12.6834 0.292893 12.2929L5.58579 7L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z'
-  );
+/* stylelint-disable */
+.active svg>path {
+  d: path('M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976311 13.3166 -0.0976311 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L8.41421 7L13.7071 12.2929C14.0976 12.6834 14.0976 13.3166 13.7071 13.7071C13.3166 14.0976 12.6834 14.0976 12.2929 13.7071L7 8.41421L1.70711 13.7071C1.31658 14.0976 0.683417 14.0976 0.292893 13.7071C-0.0976311 13.3166 -0.0976311 12.6834 0.292893 12.2929L5.58579 7L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z'
+    );
   fill: var(--link-separator);
 }
 
@@ -76,7 +76,7 @@ body {
   background: var(--navbackground);
 }
 
-.nav-list > li {
+.nav-list>li {
   font-family: var(--work-desc);
   font-size: 32px;
   list-style: none;
@@ -184,7 +184,7 @@ footer ul {
   padding: 2em;
 }
 
-.recent-works > h1 {
+.recent-works>h1 {
   font-family: var(--primary-family);
   font-weight: 400;
   font-size: 2.5em;
@@ -198,7 +198,7 @@ figure .multi-post {
   width: 100%;
 }
 
-.recent-works > section {
+.recent-works>section {
   /* display: flex; */
   flex-direction: column;
   align-items: center;
@@ -248,7 +248,7 @@ figure .multi-post {
   overflow: hidden;
 }
 
-.recent-works ul.langs > li {
+.recent-works ul.langs>li {
   border: 1px solid var(--langs);
   padding: 0.5em;
   margin-right: 0.8em;
@@ -264,7 +264,7 @@ div.multi-post {
   border: none;
 }
 
-div.btn > button {
+div.btn>button {
   font-family: var(--work-desc);
   font-size: 1.06em;
   font-weight: 700;
@@ -289,14 +289,14 @@ button.btn-get {
   cursor: pointer;
 }
 
-div.btn > button:hover,
+div.btn>button:hover,
 button.btn-get:hover {
   background-color: #ffff;
   color: #ff6b00;
   border: 1px solid #ff6b00;
 }
 
-div.btn > button:active,
+div.btn>button:active,
 button.btn-get:active {
   background: dark rgb(228, 104, 9);
 }
@@ -313,7 +313,7 @@ button.btn-get:active {
   display: flex;
 }
 
-.work-2 ul.langs > li {
+.work-2 ul.langs>li {
   background: var(--transparent-white) !important;
   border: none;
 }
@@ -326,8 +326,7 @@ button.btn-get:active {
 /* about me section */
 
 .about-me {
-  background: var(--background) url(../images/about-background.svg) 100% 100%
-    no-repeat;
+  background: var(--background) url(../images/about-background.svg) 100% 100% no-repeat;
   padding: 7em 2em;
 }
 
@@ -340,14 +339,14 @@ button.btn-get:active {
   margin-top: 6em;
 }
 
-.about-me > h1.about-title {
+.about-me>h1.about-title {
   font-family: var(--primary-family);
   font-size: 4.2em;
   font-weight: 400;
   color: var(--brand-base);
 }
 
-.about-me > p.about-desc {
+.about-me>p.about-desc {
   font-family: var(--work-desc);
   color: var(--white);
   font-weight: 400;
@@ -356,7 +355,7 @@ button.btn-get:active {
   margin: 1.4em 0;
 }
 
-.about-me > div.about-btn {
+.about-me>div.about-btn {
   background: var(--brand-base);
   color: var(--white);
   font-family: var(--work-desc);
@@ -376,7 +375,7 @@ button.btn-get:active {
   background: var(--background);
 }
 
-.knowledge-desc > ul {
+.knowledge-desc>ul {
   list-style: none;
   color: var(--white);
   font-family: var(--languages);
@@ -436,7 +435,7 @@ form.get-in-touch-form input {
   width: 90%;
 }
 
-form > textarea {
+form>textarea {
   background: var(--text-area);
   border: none;
   padding: 1em;

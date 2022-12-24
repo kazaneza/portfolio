@@ -60,7 +60,8 @@
 /* main section */
 .wrapper {
   box-sizing: border-box;
-  background: var(--background) url('../images/desktop-header.svg') no-repeat
+  background:
+    var(--background) url('../images/desktop-header.svg') no-repeat
     100% 100%;
   color: var(--white);
   height: 100vh;
