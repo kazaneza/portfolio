@@ -476,13 +476,13 @@ footer {
   position: relative;
   z-index: 10;
   background: var(--white);
-  height: 90%;
+  height: 85%;
   margin: 1em 2em;
   padding: 1em;
   display: flex;
   flex-direction: column;
-  left: calc(50% - 480px/2);
-  top: 4px;
+  left: calc(50% - 475px/2);
+  top: 41px;
 }
 
 .top-nav {
