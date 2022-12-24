@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-trailing-spaces */
 const Work1 = document.querySelector('.work-1');
 
 let firstData = [
@@ -19,7 +17,6 @@ let firstData = [
 let firstWork = '';
 let firstModal = '';
 
-// eslint-disable-next-line no-restricted-syntax
 for (firstData of firstData) {
   const loop = firstData.technologies
     .map((language) => `<li class="lang-list">${language}</li>`)
@@ -364,27 +361,6 @@ for (let i = 0; i < navLinks.length; i += 1) {
     sideNav.classList.add('hide');
     navWrapper.classList.remove('active');
   });
-}
-
-// email validation
-const userEmail = document.querySelector('#user-email');
-const form = document.getElementById('getForm');
-const { email } = form.elements;
-const Name = document.querySelector('.Name');
-const fullName = form.elements.fullname;
-const textArea = document.querySelector('.textArea');
-const textarea = form.elements.comment;
-// Check email is valid
-function checkEmail(input) {
-  const re = /^[a-z]+$/g;
-
-  if (re.test(input)) {
-    message.innerHTML = '';
-    form.submit();
-  } else {
-    message.innerHTML =
-      ' email address should be written in small letters only!';
-  }
 }
 
 // event listener
